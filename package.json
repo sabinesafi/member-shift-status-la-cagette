@@ -1,0 +1,23 @@
+{
+  "name": "member-shift-status-la-cagette",
+  "version": "1.0.0",
+  "description": "to consult la cagette shifting schedule",
+  "main": "serveur.js",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabinesafi/member-shift-status-la-cagette.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabinesafi/member-shift-status-la-cagette/issues"
+  },
+  "homepage": "https://github.com/sabinesafi/member-shift-status-la-cagette#readme"
+}

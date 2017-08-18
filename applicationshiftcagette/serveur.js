@@ -1,6 +1,11 @@
 const express = require('express')
-const http = require('http')
+const https = require('https')
 const app = express()
+
+const AUTH = process.env.AUTH
+
+https.get(`https://${AUTH}@lacagette-staging.trobz.com`,
+    res => console.log(res.statusCode))
 
 
 app.get('/', (req, res) =>
